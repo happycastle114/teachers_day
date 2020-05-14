@@ -1,0 +1,77 @@
+@font-face { font-family: 'Eoe_YE_M'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Eoe_YE_M.woff') format('woff'); font-weight: lighter; font-style: normal; }
+
+
+html {
+    font-family: 'Eoe_YE_M', sans-serif;
+}
+
+
+.fullpage{
+    text-align: center;
+}
+
+body{
+    background-image: url("actbackground.png");
+    background-size: 100% 100%;
+    font-size: 30px;
+}
+
+.title_image {
+    width: 30%;
+    height: auto;
+    
+}
+
+.carn_image {
+    width: 13%;
+    height: auto;
+}
+
+.text {
+    font-family: 'Eoe_YE_M';
+    font-size: 80px;
+}
+.thanks_text {
+    font-family: 'Eoe_YE_M';
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.card_section {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    font-family: 'NanumSquare';
+    font-size: 20px;
+    width: 97%;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2rem;
+    
+}
+
+.credits {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.card_flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.goodimage {
+    width: 80%;
+    height: auto;
+}
+
+.cs-section {
+    background-image: url('goodimage.png');
+    background-repeat: no-repeat;
+    background-size: 97% 97%;
+    background-position: center;
+}
